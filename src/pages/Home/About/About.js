@@ -20,7 +20,7 @@ const About = () => {
                      ante ipsm primis in faucibus orci luctus et ultrice cubilia curae; Nullam placerat leo mauris, lacinia pulvinar, runc iduntfaucibus orci sodales augue et pellen.Sed dui metus, ornare vel rhoncus sed endreri adipiscing elit. In posuere interdum nunc eget, roin ac erateu erest.
                      </p>
                         <Link to="/doctors">
-                            <button className="mt-5 btn2">See More</button>
+                            <button className="mt-5 btn2">Go Doctors page</button>
                         </Link>
                   </div>
                   <div className="col-md-6">

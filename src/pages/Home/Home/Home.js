@@ -109,7 +109,7 @@ const Home = () => {
                          </div>
                          <div>
                              <Link to="/about">
-                             <button className="mt-5 btn2">See More</button>
+                             <button className="mt-5 btn2">See More About</button>
                              </Link>
                          </div>
                          
