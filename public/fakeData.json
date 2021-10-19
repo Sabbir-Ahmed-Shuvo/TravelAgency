@@ -1,0 +1,43 @@
+[   
+    {
+    "id":1,
+    "name":"Emargency Ambulance Service",
+    "img":"https://i.ibb.co/nR1HxGn/Emergency-Medical-Services.jpg",
+    "description":"We provide. ICU Ambulance Service, Ac ambulance, freezing ambulance. Best Ambulance Service, Competitive Pricing, No Hidden Charge Call Us for Ambulance."
+    },
+
+    {
+    "id":2,
+    "name":"Emargency Prase Making",
+    "img":"https://i.ibb.co/vYdL2fM/Rescuer-hands-doing-emergency-CPR-on-heart-attacked-man-trying-to-save-his-life.jpg",
+    "description":"One symptom is chest pain - often starting in the middle of your chest and perhaps moving to your neck, jaw, ears, arms and wrists. It can travel between your shoulder blades, back or stomach area."
+    },
+    
+    {
+    "id":3,
+    "name":"Pharmasict Serving Customer Drug Store",
+    "img":"https://i.ibb.co/hCbkTX0/pharmasict-serving-customer-drug-store-1303-25551.jpg",
+    "description":"One of the primary goals of The Drug Store is to provide fast and courteous service to you, our customer. We always greet you with a smile and attempt to take care of your needs in the most timely fashion possible. "
+    },
+    
+    {
+    "id":4,
+    "name":"Emargency Surgery Service",
+    "img":"https://i.ibb.co/C84NMQR/surgery-1807541-340.webp",
+    "description":"Trauma surgeons (also called critical care and acute care surgeons) specialize in performing emergency surgeries on people who've had a critical injury or illness. Trauma surgery requires extensive knowledge of surgical procedures and how to manage different types of injuries"
+    },
+
+    {
+    "id":5,
+    "name":"Children healthcare Service",
+    "img":"https://i.ibb.co/R3ntyCZ/this-injury-is-serious-case-329181-7636.jpg",
+    "description":"Children’s Health Care of Newburyport and Haverhill provides comprehensive pediatric health care from birth through adolescence. Our full-circle approach covers preventative care, urgent care, and specialist referrals."
+    },
+    
+    {
+    "id":6,
+    "name":"Online advice Service",
+    "img":"https://i.ibb.co/N6JJh91/portrait-beautiful-young-asian-business-woman-with-headphone-call-center-74190-11845.jpg",
+    "description":"In addition to the online advice available via Planning Aid Direct, the RTPI Policy and Research pages also house useful information on planners matters."}
+
+]    

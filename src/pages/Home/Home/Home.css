@@ -1,0 +1,21 @@
+.blog-text{
+    text-align: justify;
+}
+.text-font{
+    font-size: 70px;
+}
+.bg-color{
+    background-color: rgba(233, 223, 223, 0.945);
+}
+.bg-color h6{
+    font-size: 40px;
+    padding: 50px;
+}
+.bg-color p{
+    color: gray;
+}
+.btn2{
+    border: 1px solid gray;
+    padding: 20px 40px;
+    border-radius: 25px;
+}
