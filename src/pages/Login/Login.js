@@ -6,7 +6,7 @@ import'./Login.css'
 
 
 const Login = () => {
-    const {singInWithGoogle, emailPasswordSignIn,user} =useAuth();
+    const {singInWithGoogle, emailPasswordSignIn} =useAuth();
     const location = useLocation();
     const history = useHistory();
     const redirect_uri = location.state?.from || '/home'

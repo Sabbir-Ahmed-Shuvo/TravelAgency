@@ -29,6 +29,7 @@ const Register = () => {
          e.preventDefault()
          if(password.length < 6){
             setErrorText("password must be gaterthen six character")
+            setError("")
          }else{
             setErrorText("")
          }
