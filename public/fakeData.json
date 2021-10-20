@@ -15,29 +15,29 @@
     
     {
     "id":3,
-    "name":"Pharmasict Serving Customer Drug Store",
+    "name":"Pharmasict Customer Drug Store",
     "img":"https://i.ibb.co/hCbkTX0/pharmasict-serving-customer-drug-store-1303-25551.jpg",
-    "description":"One of the primary goals of The Drug Store is to provide fast and courteous service to you, our customer. We always greet you with a smile and attempt to take care of your needs in the most timely fashion possible. "
+    "description":"One of the primary goals of The Drug Store is to provide fast and courteous service to you, our customer. We always greet you with a smile and attempt to take care of your needs in the most timely. "
     },
     
     {
     "id":4,
     "name":"Emargency Surgery Service",
     "img":"https://i.ibb.co/C84NMQR/surgery-1807541-340.webp",
-    "description":"Trauma surgeons (also called critical care and acute care surgeons) specialize in performing emergency surgeries on people who've had a critical injury or illness. Trauma surgery requires extensive knowledge of surgical procedures and how to manage different types of injuries"
+    "description":"Trauma surgeons (also called critical care and acute care surgeons) specialize in performing emergency surgeries on people who've had a critical injury or illness. Trauma surgery requires extensive knowledge "
     },
 
     {
     "id":5,
     "name":"Children healthcare Service",
     "img":"https://i.ibb.co/R3ntyCZ/this-injury-is-serious-case-329181-7636.jpg",
-    "description":"Children’s Health Care of Newburyport and Haverhill provides comprehensive pediatric health care from birth through adolescence. Our full-circle approach covers preventative care, urgent care, and specialist referrals."
+    "description":"Children’s Health Care of Newburyport and Haverhill provides comprehensive pediatric health care from birth through adolescence. Our full-circle approach covers preventative care, urgent care, and specialist."
     },
     
     {
     "id":6,
     "name":"Online advice Service",
     "img":"https://i.ibb.co/N6JJh91/portrait-beautiful-young-asian-business-woman-with-headphone-call-center-74190-11845.jpg",
-    "description":"In addition to the online advice available via Planning Aid Direct, the RTPI Policy and Research pages also house useful information on planners matters."}
+    "description":"In addition to the online advice available via Planning Aid Direct, the RTPI Policy and Research pages also house useful information on planners matters.the RTPI Policy and Research pages "}
 
 ]    
