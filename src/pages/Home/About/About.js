@@ -35,8 +35,8 @@ const About = () => {
                         </div>
                 </div>
            </div>
-           <div className="container mt-5">
-              <div className="row">
+           <div className="container mt-5 p-4">
+              <div className="row card-bg pt-5">
                    <div className="col-md-6">
                    <Carousel fade>
                         <Carousel.Item>
@@ -76,7 +76,7 @@ const About = () => {
                         </Carousel.Item>
                     </Carousel>
                    </div>
-                   <div className="col-md-5  blog-text  pb-5 ms-5">
+                   <div className="col-md-5  blog-text  pb-2 ms-2 mt-3">
                         <h3>-Practical Inner Pages Details</h3>
                             <p className="about-text">
                                 Nullam erat lectus, ullamcorper sed finibus ut. Vulputate porttitor     diam, iaculis neque sed enim amet efficitur lorem ipsum lectus sit amet
@@ -85,7 +85,7 @@ const About = () => {
                             ante ipsm primis in faucibus orci luctus et ultrice cubilia curae; Nullam placerat leo mauris, lacinia pulvinar, runc iduntfaucibus orci sodales augue et pellen.Sed dui metus, ornare vel rhoncus sed endreri adipiscing elit. In posuere interdum nunc eget, roin ac erateu erest.
                             </p>
                             <p className="about-text"> 
-                            mauris, lacinia pulvinar, runc iduntfaucibus orci sodales augue et pellen.Sed dui metus, ornare vel rhoncus sed endreri adipiscing elit. In posuere interdum nunc eget, roin ac erateu erest.
+                            mauris, lacinia pulvinar, runc iduntfaucibus orci sodales augue et pellen.Sed dui metus, ornare vel rhoncus sed endreri adipiscing elit. In posuere interdum nunc eget.
                             </p>
                    </div>
               </div>

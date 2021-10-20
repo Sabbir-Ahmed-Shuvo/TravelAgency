@@ -3,7 +3,11 @@ import { Redirect, Route } from 'react-router';
 import useAuth from '../../hooks/useAuth';
 
 const PrivateRoute = ({children, ...rest}) => {
-    const {user} =useAuth();
+    const {user,isLoad} =useAuth();
+    if(isLoad){
+        return <div className="spinner-border text-danger" role="status">
+      </div>
+    }
     return (
         <Route
         {...rest}
