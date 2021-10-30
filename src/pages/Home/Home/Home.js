@@ -8,11 +8,13 @@ import blogimg3 from'../../../Images/services/blog-img-17.jpg'
 import blogimg4 from'../../../Images/services/blog-img-18-1.jpg'
 import blogimg5 from'../../../Images/services/h2-img-4.jpg'
 import { Link } from 'react-router-dom';
+import Services from '../Services/Services';
 const Home = () => {
     return (
         <div>
             <Banner></Banner>
-           <div className="container">
+            <Services></Services>
+            <div className="container">
                 <div className="row mt-5">
                     <div className="col-md-6">
                         <h1 className="title">We’re at your service</h1>
@@ -115,6 +117,11 @@ const Home = () => {
                          
                     </div>
                 </div>
+                 
+
+
+
+
 
                 <h1 className="mt-4">Our pricing plans</h1>
                 <div className="row mt-5">

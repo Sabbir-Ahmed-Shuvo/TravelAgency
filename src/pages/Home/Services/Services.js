@@ -1,8 +1,7 @@
+
 import Service from "../Service/Service"
 import'./Services.css'
 const { useState, useEffect } = require("react")
-
-
 
 const Services = () =>{
     const [services, setServices] = useState([])
