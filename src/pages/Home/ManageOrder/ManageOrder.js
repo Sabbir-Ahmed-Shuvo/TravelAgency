@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { Carousel } from 'react-bootstrap';
-import './About.css'
+import './ManageOrder.css'
 
 import img from'../../../Images/services/b189ee95362655.5e95d603048e1.jpg'
 import img2 from'../../../Images/services/p1-img-1.jpg'
@@ -10,7 +10,7 @@ import slideImg2 from'../../../Images/banner/landing-img-17.webp'
 import slideImg3 from'../../../Images/banner/landing-img-18.jpg'
 import slideImg4 from'../../../Images/banner/landing-img-19.jpg'
 import slideImg5 from'../../../Images/banner/landing-img-20.jpg'
-const About = () => {
+const ManageOrder = () => {
     return (
         <div>
             <div>
@@ -94,4 +94,4 @@ const About = () => {
     );
 };
 
-export default About;
+export default ManageOrder;

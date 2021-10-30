@@ -1,5 +1,5 @@
 import React from 'react';
-import'./Doctors.css'
+import'./MyOrders.css'
 import doctorsbanner from'../../../Images/banner/group-doctors-blank-banner-isolated-over-white-background-201512442.jpg'
 import doctor1 from'../../../Images/doctors/team-img-1.jpg'
 import doctor2 from'../../../Images/doctors/team-img-2.webp'
@@ -13,7 +13,7 @@ import doctor9 from'../../../Images/doctors/team-img-9.webp'
 import doctor10 from'../../../Images/doctors/team-img-10.jpg'
 
 
-const Doctors = () => {
+const MyOrders = () => {
     return (
             <div>
                     <img width="100%" src={doctorsbanner} alt=""
@@ -146,4 +146,4 @@ const Doctors = () => {
     );
 };
 
-export default Doctors;
+export default MyOrders;
