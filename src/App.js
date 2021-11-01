@@ -7,7 +7,6 @@ import Details from './pages/Details/Details';
 import Header from './pages/Header/Header';
 import Footer from './pages/Footer/Footer';
 import Login from './pages/Login/Login';
-import Register from './pages/Register/Register';
 import AuthProvider from './context/AuthProvider';
 import PrivateRoute from './pages/PrivateRoute/PrivateRoute';
 import AddService from './pages/Home/AddService/AddService';
@@ -45,9 +44,6 @@ function App() {
        </Route>
        <Route path="/login">
          <Login></Login>
-       </Route>
-       <Route path="/register">
-         <Register></Register>
        </Route>
        <Route exact path="*">
          <NotFound></NotFound>
