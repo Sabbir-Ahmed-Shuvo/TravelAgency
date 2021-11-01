@@ -17,8 +17,9 @@ const Details = () => {
       .then((data) => setService(data));
   }, []);
 
-  const { register, handleSubmit } = useForm();
+  const { register, handleSubmit, reset } = useForm();
   const onSubmit = (data) => {
+    data.status = "Pending";
     fetch("http://localhost:5000/register", {
       method: "POST",
       headers: { "content-type": "application/json" },
@@ -28,6 +29,7 @@ const Details = () => {
       .then((data) => {
         if (data.insertedId) {
           alert("Register Booking Successfully!");
+          reset();
         }
       });
   };
