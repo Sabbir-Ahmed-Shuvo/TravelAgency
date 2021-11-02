@@ -5,11 +5,12 @@ import "./ManageOrder.css";
 const ManageOrder = () => {
   const [allBookings, setAllBookings] = useState([]);
   const [remove, setRemove] = useState(false);
+  const [status, setStatus] = useState(false);
   useEffect(() => {
     fetch("http://localhost:5000/allregister")
       .then((res) => res.json())
       .then((data) => setAllBookings(data));
-  }, [remove]);
+  }, [remove, status]);
 
   const handleCancel = (id) => {
     const procced = window.confirm(
@@ -28,6 +29,29 @@ const ManageOrder = () => {
         });
     }
   };
+
+  const [booking, setBooking] = useState({});
+  // handle  status
+  const handleApproved = (id) => {
+    fetch(`http://localhost:5000/allregister/${id}`)
+      .then((res) => res.json())
+      .then((data) => data);
+    setBooking((booking.status = "Approved"));
+
+    fetch(`http://localhost:5000/allregister/${id}`, {
+      method: "PUT",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify(booking),
+    })
+      .then((res) => res.json())
+      .then((data) => {
+        if (data.modifiedCount > 0) {
+          alert("Booking  Successfully Approved!");
+          setStatus(!status);
+        }
+      });
+  };
+
   return (
     <div className="container my-5">
       <h2 className="my-4">Manage All Vacation Bookings</h2>
@@ -51,7 +75,12 @@ const ManageOrder = () => {
                 {allBooking?.name} (status: {allBooking?.status})
               </td>
               <td>
-                <button className="btn btn-primary mx-2">Approve</button>
+                <button
+                  onClick={() => handleApproved(allBooking?._id)}
+                  className="btn btn-primary mx-2"
+                >
+                  Approve
+                </button>
                 <button
                   onClick={() => {
                     handleCancel(allBooking?._id);
