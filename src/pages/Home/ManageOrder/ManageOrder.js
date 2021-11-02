@@ -7,7 +7,7 @@ const ManageOrder = () => {
   const [remove, setRemove] = useState(false);
   const [status, setStatus] = useState(false);
   useEffect(() => {
-    fetch("http://localhost:5000/allregister")
+    fetch("https://still-beach-60108.herokuapp.com/allregister")
       .then((res) => res.json())
       .then((data) => setAllBookings(data));
   }, [remove, status]);
@@ -17,7 +17,7 @@ const ManageOrder = () => {
       "Are you sure you want to cancel the booking?"
     );
     if (procced) {
-      fetch(`http://localhost:5000/remove/${id}`, {
+      fetch(`https://still-beach-60108.herokuapp.com/remove/${id}`, {
         method: "DELETE",
       })
         .then((res) => res.json())
@@ -33,12 +33,12 @@ const ManageOrder = () => {
   const [booking, setBooking] = useState({});
   // handle  status
   const handleApproved = (id) => {
-    fetch(`http://localhost:5000/allregister/${id}`)
+    fetch(`https://still-beach-60108.herokuapp.com/allregister/${id}`)
       .then((res) => res.json())
       .then((data) => data);
     setBooking((booking.status = "Approved"));
 
-    fetch(`http://localhost:5000/allregister/${id}`, {
+    fetch(`https://still-beach-60108.herokuapp.com/allregister/${id}`, {
       method: "PUT",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify(booking),

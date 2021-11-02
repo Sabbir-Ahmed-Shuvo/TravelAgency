@@ -11,7 +11,7 @@ const MyOrders = () => {
   const email = user?.email;
 
   useEffect(() => {
-    fetch(`http://localhost:5000/allregister/${email}`)
+    fetch(`https://still-beach-60108.herokuapp.com/allregister/${email}`)
       .then((res) => res.json())
       .then((data) => setAllBookings(data));
   }, [remove, email]);
@@ -21,7 +21,7 @@ const MyOrders = () => {
       "Are you sure you want to cancel the booking?"
     );
     if (procced) {
-      fetch(`http://localhost:5000/remove/${id}`, {
+      fetch(`https://still-beach-60108.herokuapp.com/remove/${id}`, {
         method: "DELETE",
       })
         .then((res) => res.json())

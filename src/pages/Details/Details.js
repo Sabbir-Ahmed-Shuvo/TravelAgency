@@ -12,7 +12,7 @@ const Details = () => {
   const { serviceId } = useParams();
 
   useEffect(() => {
-    fetch(`http://localhost:5000/services/${serviceId}`)
+    fetch(`https://still-beach-60108.herokuapp.com/services/${serviceId}`)
       .then((res) => res.json())
       .then((data) => setService(data));
   }, []);
@@ -20,7 +20,7 @@ const Details = () => {
   const { register, handleSubmit, reset } = useForm();
   const onSubmit = (data) => {
     data.status = "Pending";
-    fetch("http://localhost:5000/register", {
+    fetch("https://still-beach-60108.herokuapp.com/register", {
       method: "POST",
       headers: { "content-type": "application/json" },
       body: JSON.stringify(data),
